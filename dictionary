@@ -1,0 +1,4 @@
+d = dict ()
+d = {"key1": "value1", "key2": "value2"}
+d["key2"] = "v2"
+print (d, type (d) )

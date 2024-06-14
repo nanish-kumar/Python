@@ -1,0 +1,10 @@
+import random
+random.seed(10)
+print(random.random()*100)
+print(random.randint(0,2))
+print(random.randrange(0,2))
+
+
+l = ["Apple", "Banana","Car", "dog", "fish"]
+
+print(random.choices(l,k=2))
